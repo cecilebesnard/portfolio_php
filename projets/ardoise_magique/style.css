@@ -1,0 +1,118 @@
+body
+{
+	background-image: url(img/crayons.jpg);
+	background-size:  cover;
+	background-repeat: no-repeat;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+main
+{
+	text-align: center;
+
+}
+
+h1
+{
+	color: #FFF;
+	text-shadow: 1px 1px 2px yellow;
+}
+
+h2
+{
+	color: #ED53D6;
+	font-size: 12px;
+
+}
+#moncanvas
+{
+	background-color: #FFF;
+	border-width: 10px;
+	border-color : #6B9FD3;
+	border-style: solid;
+	border-radius: 10px;
+
+}
+
+#outils
+{
+	text-align:left;
+}
+
+#couleur,#epaisseur,#utilities
+{
+	border: 2px solid #6B9FD3;
+	width: 10%;
+	padding: 10px;
+	margin: 20px auto;
+	background-color: #FFF;
+	border-radius: 10px;
+	display: inline-block;
+	vertical-align: top;
+	box-shadow: 2px 2px 3px #6B9FD3;
+
+}
+
+canvas#palette
+{
+	border: 2px solid #6B9FD3;
+	padding: 10px;
+	margin: 20px auto;
+	background-color: #FFF;
+	border-radius: 10px;
+	display: none;
+	vertical-align: top;
+	box-shadow: 2px 2px 3px #6B9FD3;
+}
+
+canvas#palette:hover
+{
+	cursor: crosshair;
+}
+
+
+
+#rouge,#bleu,#jaune,#rose,#noir,#blanc
+{
+	display: block;
+	border: 2px solid #555;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 2px #555;
+	text-align: center;
+
+}
+
+#rouge
+{
+	background-color: red;
+}
+
+#bleu
+{
+	background-color: blue;
+}
+
+#jaune
+{
+	background-color: yellow;
+}
+
+#rose
+{
+	background-color: pink;
+}
+
+#noir
+{
+	background-color: black;
+}
+
+#fin,#moyen,#gros,#gomme,#pipette
+{
+
+	border: 2px solid #555;
+	background-color: #FFF;
+	border-radius: 10px;
+	box-shadow: 1px 1px 2px #555;
+}

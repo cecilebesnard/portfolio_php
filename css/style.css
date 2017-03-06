@@ -1,0 +1,393 @@
+html {
+  /*height: 100%;*/
+  font-size: 62.5%; /*correspond à 10px soit 62.5% de la valeur du navigateur par defaut, genralement 16px*/
+}
+
+body
+{
+    /*background-image: url('../images/fondecran.jpg');*/
+    background-repeat: repeat-y;
+    background-size: cover;
+    /*min-height: 100%;*/
+	margin: 0;
+  	padding: 0;
+  	/*position: relative;*/
+    font-size: 1.2rem;
+}
+
+.parallax-container 
+{
+    height: 300px;
+}
+
+#mainTitle
+{
+    color: #08364E;
+    font-family: 'Damion', cursive;
+    font-size: 6rem;
+    padding: 20px;
+    text-align: center;
+    display: none;
+}
+
+#name
+{
+   color: #08364E; 
+   text-align: center;
+   display: none;
+   font-size: 4rem;
+}
+
+h2, h3
+{
+    color: #FFF;
+    font-family: 'Damion', cursive;
+    line-height: 0;
+    padding-bottom: 2%;
+    
+}
+
+h3
+{
+    color :#08364E ;
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 2%;
+}
+
+h4
+{
+    font-size: 1.8rem;
+    font-family: 'Damion', cursive;
+    color: #08364E;
+
+}
+
+/*header*/
+
+.fa-bars
+{
+    position: fixed;
+    z-index: 1;
+}
+
+
+
+/*carousel*/
+
+.carousel
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.carousel img
+{
+    width: 50%;
+}
+
+
+/*projet*/
+
+#projets
+{
+    text-align: center;
+}
+
+.projet
+{
+    text-align: center;
+    margin-bottom: 3%;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+.projetImg
+{
+    width: 80%;
+    display: inline-block;
+    margin-bottom: 2%;
+    
+}
+
+.monimage a:hover img, .monimage a:focus img {
+    opacity: 0.5; /* opacite au survol */
+}
+
+.projet p
+{
+    color: #039BE5;
+}
+
+
+.cv
+{
+   color: #FFF;
+   font-size: 3rem;
+}
+/*footer*/
+
+footer
+{
+    
+    background-color: #08364E;
+    position: absolute; 
+	left: 0; 
+	right: 0;
+	text-align: center;
+   
+}
+
+i.fa
+{
+    font-size: 3rem;
+    padding: 6px;
+    color: #039BE5;
+    
+}
+
+footer li
+{
+    display: inline-block;
+}
+
+
+ /*sidenav*/
+
+body {
+    
+    transition: background-color .5s;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #039BE5;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #FFF;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Damion', cursive;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #08364E;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 3.6rem;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+  
+}
+
+
+
+
+/*timeline*/
+
+.sociales 
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#timeline 
+{
+    width: 800px;
+    overflow: hidden;
+    margin: 100px auto;
+    position: relative;
+    background: url('../images/dot.gif') left 45px repeat-x;
+}
+        
+#dates 
+{
+    width: 800px;
+    height: 60px;
+    overflow: hidden;
+}
+
+
+#dates li 
+{
+    list-style: none;
+    float: left;
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    background: url('../images/biggerdot.png') center bottom no-repeat;
+}
+               
+#dates a, #date 
+{
+    color: #039BE5;
+    line-height: 38px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+}
+               
+#dates .selected 
+{
+    font-size: 38px;
+}
+        
+#issues 
+{
+    width: 800px;
+    height: 350px;
+    overflow: hidden;
+}   
+            
+#issues li 
+{
+    width: 800px;
+    height: 350px;
+    list-style: none;
+    float: left;
+}
+               
+#issues li.selected img 
+{
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
+}
+                
+#issues li img 
+{
+    float: left;
+    margin: 10px 30px 10px 50px;
+    background: transparent;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */   
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */      
+    zoom: 1;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out; 
+    transition: all 2s ease-in-out;
+    -webkit-transform: scale(0.7,0.7);
+    -moz-transform: scale(0.7,0.7);
+    -o-transform: scale(0.7,0.7);
+    -ms-transform: scale(0.7,0.7);
+    transform: scale(0.7,0.7);                              
+}
+                
+#issues li h4
+{
+    color: #08364E;
+    font-size: 48px;
+    margin: 20px 0;
+    text-shadow: #000 1px 1px 2px;
+}
+                
+#issues li p, #texteParcours 
+{
+    font-size: 1.3rem;
+    font-weight: normal;
+    line-height: 15px;
+    text-shadow: #000 1px 1px 2px;
+}
+
+button
+{
+    background-color: #FFF;
+    border-radius: 10%;
+    margin: 1.5%;
+    border: none;
+}
+
+button:focus
+{
+    background-color: #FFF;
+}
+        
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width: 640px)
+{
+    .tickercontainer 
+    { 
+    width: 400px; 
+    
+    }
+    .tickercontainer .mask
+    { 
+    width: 400px;
+    }
+    
+    .carousel
+    {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+   
+}
+
+
+@media screen and (max-width: 750px)
+{
+    #monParcours2
+    {
+        display: block;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 2%;
+    }
+
+    #monParcours2 img
+    {
+        width: 35%;
+    }
+
+    #monParcours
+    {
+        display: none;
+    }
+
+    #mainTitle
+    {
+        font-size: 5rem;
+    }
+}
+
+/*parcours*/
+
+@media screen and (min-width: 750px)
+{
+  
+    #monParcours2
+    {
+        display: none;
+    }
+
+}

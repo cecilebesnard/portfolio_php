@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	crossorigin="anonymous"></script>
+	
+	
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+	<link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous"> 
+
+	<link rel="stylesheet"  href="style.css">
+	<script src="classes/Program.class.js"></script>
+	<script src="classes/Slate.class.js"></script>
+	<script src="classes/Pen.class.js"></script>
+	<script src="classes/ColorPalette.class.js"></script>
+	
+	<title>ardoise magique</title>
+</head>
+<body>
+
+<main>
+
+
+
+<h1>ARDOISE MAGIQUE</h1>
+
+
+<canvas id="moncanvas" width="800" height="600"></canvas>
+<div id="outils">
+
+	<section id="couleur">
+		<h2>Couleurs</h2>
+		<div id="bleu" class="color" data-color="blue"></div>
+		<div id="rouge" class="color" data-color="red"></div>
+		<div id="rose" class="color" data-color="pink"></div>
+		<div id="jaune" class="color" data-color="yellow"></div>
+		<div id="noir" class="color" data-color="black"></div>
+		<div id="blanc" class="color" data-color="white"></div>
+		
+
+	</section>
+
+	<section id="epaisseur">
+		<h2>Epaisseur de trait</h2>
+		<canvas id="fin" class="size" width="40" height="40" data-size="2"></canvas>
+		<canvas id="moyen" class="size" width="40" height="40" data-size="5"></canvas>
+		<canvas id="gros" class="size" width="40" height="40" data-size="10"></canvas>
+	</section>
+
+	<section id="utilities">
+		<h2>Outils</h2>
+		<button id="gomme" width="40" height="40"><i class="fa fa-eraser" aria-hidden="true"></i></button>
+		<button id="pipette"><i class="fa fa-eyedropper" aria-hidden="true"></i></button>
+
+	</section>
+
+	<canvas id="palette" width="256" height="256"></canvas>
+
+
+</div>
+</main>
+
+
+<script src="main.js"></script>
+</body>
+</html>

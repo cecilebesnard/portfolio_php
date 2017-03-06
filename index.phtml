@@ -1,0 +1,25 @@
+
+
+<?php foreach ($projets as $projet) : ?>
+
+
+	<div class="projet">
+	
+	<h4><?= htmlspecialchars($projet['titre']) ;?></h4>
+
+	
+
+	<div class="monimage">
+	<a href="<?= ($projet['lienSite']) ;?>"><img class="projetImg" src="images/projets/<?= ($projet['Images']) ;?>" alt="image"/></a>
+	</div>
+
+
+	<p><?= htmlspecialchars($projet['langages']) ;?></p>
+
+	</div>
+
+<?php endforeach;?>
+
+
+
+

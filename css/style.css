@@ -120,12 +120,14 @@ h4
 }
 
 
-.cv
+
+/*footer*/
+
+.cv, footer h2
 {
    color: #FFF;
-   font-size: 3rem;
+   font-size: 2.3rem;
 }
-/*footer*/
 
 footer
 {
@@ -135,6 +137,8 @@ footer
 	left: 0; 
 	right: 0;
 	text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
    
 }
 
@@ -149,6 +153,67 @@ i.fa
 footer li
 {
     display: inline-block;
+}
+
+footer ul
+{
+    margin-top: 2%;
+}
+
+form
+{
+ width: 40%;
+ margin: 2% auto;
+ padding: 2%;
+ background-color: rgba(255,255,255, 0.1);
+ 
+}
+
+
+
+form p
+{
+    text-align: center;
+    color: #FFF;
+    font-family:'Damion', cursive;
+    font-size: 1.2em;
+}
+
+input[type="text"]
+{
+    height: 30px;
+    border: solid 1px #039BE5;
+    border-radius: 10px;
+    
+}
+
+
+input[type="text"]:focus
+{
+    
+   box-shadow: 0px; 
+}
+
+
+input[type="submit"]
+{
+    background-color: #039BE5;
+    font-family: 'Damion', cursive;
+    border: none;
+    font-size: 1.5rem;
+    margin: 15px;
+    color:#FFF;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+textarea
+{
+    height: 60px;
+    border: solid 1px #039BE5;
+    border-radius: 10px;
+ 
 }
 
 
@@ -199,7 +264,17 @@ body {
   
 }
 
+/*retour en haut*/
 
+#retour 
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 2;
+    
+}
 
 
 /*timeline*/
@@ -377,6 +452,26 @@ button:focus
     #mainTitle
     {
         font-size: 5rem;
+    }
+    
+    footer ul
+    {
+        margin-top: 5%;
+    }
+
+    form
+    {
+     width: 90%;
+     margin: 5% auto;
+     padding: 2%;
+     background-color: rgba(255,255,255, 0.1);
+
+    }
+    
+    footer
+    {
+      padding-top: 5%;
+      padding-bottom: 5%;
     }
 }
 

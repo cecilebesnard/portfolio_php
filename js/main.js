@@ -1,3 +1,18 @@
+	
+function openNav() {
+    $("#mySidenav").css({
+        width : "250px"});
+    $('#main').css('opacity' , '0.5');
+};
+
+function closeNav() {
+    $("#mySidenav").css({
+        width : "0"});
+    $('#main').css('opacity' , '1');
+};
+
+
+
 $(function(){
         //$("#ticker01").liScroll({travelocity: 0.13});
 		$('.parallax').parallax();
@@ -19,7 +34,20 @@ $(function(){
 			OnClickPrevious();
 		});
 
+                $('.closebtn').click(function()
+                {
+                    openNav();
+                });
 
+                $('.closenav').click(function()
+                {
+                    closeNav(); 
+                    var the_id = $(this).attr("href");
+
+                    $('html, body').animate({
+                        scrollTop:$(the_id).offset().top
+                    }, 'slow');
+                });
 
 		
 	  
@@ -33,33 +61,33 @@ $(function(){
 
 	
 
-	
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    //document.getElementById("main").style.marginLeft = "250px";
-    $('#main').css('opacity' , '0.5');
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
-   $('#main').css('opacity' , '1');
-}
 
 
 
 $(window).scroll(
                function() 
        { 
-           if($('html').scrollTop() > 150)
+           if($(document).scrollTop() > 10)
            {
-           $('#retour').fadeIn(); 
+           $('#retour').fadeIn('slow'); 
            }
-           if($('html').scrollTop() < 150)
+           if($(document).scrollTop() < 10)
            {
-           $('#retour').fadeOut(); 
+           $('#retour').fadeOut('slow'); 
            }
            
            });
+
+$('#retour').click(
+        function()
+{
+    $('html').animate({
+        scrollTop: 0
+    }, 500);
+    
+});
+
+
+
 
 

@@ -1,0 +1,369 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
+.container
+{
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+h1, h2, h3
+{
+	font-family: 'Candal', sans-serif;
+	text-align: center;
+}
+
+header h1
+{
+	font-size: 2em;
+}
+
+a
+{
+	text-decoration: none;
+	font-family: 'Candal', sans-serif;
+}
+
+i.fa
+{
+	display: block;
+	text-align: center;
+	font-size: 2em;
+	color: #FB8B9B;
+	padding: 5px;
+}
+
+/*header*/
+
+nav
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+
+}
+
+nav img
+{
+	width: 100px;
+}
+
+header a
+{
+	color: #214255;
+	font-weight: bold;
+}
+
+header a:hover
+{
+	color: #FB8B9B;
+	transition: 0.2s;
+}
+
+header a:hover i
+{
+	color: #214255;
+	transition: 0.2s;
+}
+
+
+header section:nth-of-type(1)
+{
+	text-align: center;
+	background: url(../img/background.jpg);
+	padding: 18% 13%;
+	color: #FFF;
+	line-height: 2;
+	background-position: contain;
+
+}
+
+
+header p
+{
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+form
+{
+	background-color: #FB8B9B;
+	padding: 1% 5%;
+}
+
+input
+{
+	border: none;
+	background-color: #FB8B9B;
+	text-transform: uppercase;
+	color: #ECFBFF;
+}
+
+/*main*/
+
+.index
+{
+	padding-top: 5%;
+	padding-bottom: 3%; 
+}
+
+
+.index div
+{
+	display: flex;
+}
+
+.index div:nth-of-type(2) article p:nth-of-type(1)
+{
+	text-align: center;
+	color: #FB8B9B;
+	font-weight: bold;
+	padding: 2%;
+}
+
+.index h2
+{
+	margin-bottom: 3%;
+	margin-top: 2%;
+	padding: 2%;
+	border-top: dotted 1px #555;
+	border-left: dotted 1px #555;
+	border-right: dotted 1px #555;
+	font-size: 1.2em;
+	color: #214255;
+}
+
+.index h3
+{
+	color: #FB8B9B;
+	padding: 2%;
+}
+
+.index article
+{
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.index article p
+{
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	box-sizing: border-box;
+	font-size: 10px;
+	line-height: 2;
+	color: #555;
+}
+
+/*main mutualisé*/
+
+.mutualise , .dedie
+{
+	padding-top: 5%;
+	padding-bottom: 3%; 
+	font-size: 10px;
+	line-height: 2;
+	color: #555;
+}
+
+.mutualise p:nth-of-type(1)
+{
+	padding-bottom: 2%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+.mutualise section , .dedie section
+{
+	display: flex;
+	margin-bottom: 5%;
+	margin-top: 4%;
+	align-items: flex-start;
+	
+}
+
+.mutualise h2 ,.dedie h2 , .contact h2
+{
+	margin-bottom: 3%;
+	margin-top: 2%;
+	padding: 2%;
+	border-top: dotted 1px #555;
+	border-left: dotted 1px #555;
+	border-right: dotted 1px #555;
+	font-size: 1.5em;
+	color: #214255;
+}
+
+
+.mutualise h3 ,.dedie h3
+{
+	color: #FFF;
+	background-color: #214255;
+	margin: 3px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	box-sizing: border-box;
+}
+
+.mutualise section:hover article , .dedie section:hover article
+{
+	opacity: 0.8;
+}
+
+.mutualise section:hover article:hover , .dedie section:hover article:hover
+{
+	opacity: 1;
+}
+
+.mutualise article , .dedie article
+{
+
+	text-align: center;
+	border :dotted 1px #555 ;
+	margin: 2%;
+	padding: 3px;
+	flex: 1 1 0;
+}
+
+
+
+.mutualise article li , .dedie article li
+{
+	margin-left: 20px;
+	list-style-type: circle;
+	text-align: left;
+}
+
+
+
+.mutualise article p:nth-of-type(2)
+{
+	font-family: 'Candal', sans-serif;
+	color: #214255;
+	font-size: 1.2em;
+	text-align: center;
+}
+.commander
+{
+	
+	background-color: #FB8B9B;
+	color: #ECFBFF;
+	font-family: 'Candal', sans-serif;
+	border:none;
+	margin: 3px;
+	padding: 6px 0px;
+	font-size: 1em;	
+	display: block;
+
+}
+
+
+/*main contact*/
+.contact
+{
+	color: #555;
+	display: block;
+
+}
+
+
+.contact section 
+{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 5%;
+
+	
+}
+
+.contact iframe
+{
+	width: 100%;
+}
+
+.contact iframe:hover
+{
+	opacity: 0.5;
+}
+
+span
+{
+	color: #FB8B9B;
+}
+
+.contact a
+{
+	font-family: 'Open Sans', sans-serif; 
+	color: #555;
+}
+
+.contact article
+{
+	text-align: center;
+	flex: 1 1 0;
+	margin-right: 13px;
+	margin-left: 13px;
+	
+}
+
+.contact i
+{
+	border-bottom: dotted 1px #FB8B9B;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+}
+
+/*footer*/
+
+footer
+{
+	background-color: #214255;
+	padding: 4%;
+	text-align: center;
+	color: #FFF;
+}
+
+footer a
+{
+	
+	font-weight: bold;
+	color: #FFF;
+	font-size: 1em;
+}
+
+footer p
+{
+	margin-top: 1.5%;
+	color: #ECFBFF;
+	font-size: 0.7em;
+}
+
+@media screen and (max-width: 600px)
+{
+	header nav, .index div, section
+	{
+		flex-direction: column;
+	}
+
+	.mutualise section , .dedie section 
+	{
+		align-items: stretch;
+		
+			
+	}
+
+	.mutualise article , .dedie article
+	{
+		margin-bottom: 10px;
+	}	
+
+	.index p
+	{
+		text-align: center;
+	}
+}

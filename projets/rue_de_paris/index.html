@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang='fr'>
+<head>
+<meta charset="utf-8">
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+
+	<title>Historique des rues de Paris</title>
+
+
+</head>
+<body>
+
+	<header>
+		
+		<h1>Les Rues de Paris</h1>
+	</header>
+
+	<main class="container">
+
+		<div class="recherche">
+
+		<h2>Recherche sur l'historique des rues de Paris, Tapez un nom de rue : </h2>
+
+			<input type="text" id="recherche">
+			<button id="search"><i class="fa fa-search" aria-hidden="true"></i></button>
+
+			<h3></h3>
+
+			<p id="resultat"></p>
+
+		</div>
+
+		<div class="recherche">
+
+		<h2>Recherche des rues de Paris par arrondissement :</h2>
+
+	<select id="arrondissement">
+		<option>Ier</option>
+		<option value ="IIe">IIe</option>
+		<option value ="IIIe">IIIe</option>
+		<option value ="IVe">IVe</option>
+		<option value ="Ve">Ve</option>
+		<option value ="VIe">VIe</option>
+		<option value ="VIIe">VIIe</option>
+		<option value ="VIIIe">VIIIe</option>
+		<option value ="IXe">IXe</option>
+		<option value ="Xe">Xe</option>
+		<option value ="XIe">XIe</option>
+		<option value ="XIIe">XIIe</option>
+		<option value ="XIIIe">XIIIe</option>
+		<option value ="XIVe">XIVe</option>
+		<option value ="XVe">XVe</option>
+		<option value ="XVIe">XVIe</option>
+		<option value ="XVIIe">XVIIe</option>
+		<option value ="XVIIIe">XVIIIe</option>
+		<option value ="XIXe">XIXe</option>
+		<option value ="XXe">XXe</option>
+
+	</select>
+
+	<button id="area"><i class="fa fa-search" aria-hidden="true"></i></button>
+
+	<section id="rues"></section>
+
+	</div>
+
+</main>
+<script src="paris.js"></script>
+</body>
+</html>

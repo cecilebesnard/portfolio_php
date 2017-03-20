@@ -1,0 +1,263 @@
+body
+{
+Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfcfc+28,e64856+28,e64856+56,482637+56 */
+background: #fcfcfc; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #fcfcfc 16%,#e64856 16%,#e64856 43.5%,#482637 43.5%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #fcfcfc 16%,#e64856 16%,#e64856 43.5%,#482637 43.5%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #fcfcfc 16%,#e64856 16%,#e64856 43.5%,#482637 43.5%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#482637',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+font-family: 'Roboto Slab', serif;
+font-size: 10px;
+color: #C2B9BE;
+line-height: 2;
+}
+.container
+{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+/*header*/
+
+header
+{
+	box-shadow: 0px 0px 10px #555;
+}
+
+nav
+{
+	padding: 25px;
+	text-align: right;
+}
+
+nav ul
+{
+	
+	box-sizing: border-box;
+	padding-bottom: 13px;	
+	padding-top: 13px;
+
+}
+
+nav ul li
+{
+	display: inline-block;
+
+
+}
+
+
+nav ul li a
+{
+	text-decoration-line: none;	
+	color: #FCFCFC;
+	padding-left: 30px;
+	padding-right: 10px;
+	
+}
+
+
+nav ul li:first-child
+{
+	float: left;
+	margin: -25px;
+
+}
+
+
+/*flex*/
+
+.flexslider 
+{
+	margin-top: 50px;
+}
+
+.flex-direction-nav a
+{
+	display: none;
+}
+
+/*main*/
+
+.vignette
+{
+	color: #482637;
+	text-align: center;
+	width: 100%
+	margin: 0 auto;
+}
+
+.vignette article
+{
+	display: inline-block;
+	width: 23%;
+	background-color: #FCFCFC;
+	margin-right: 2.66%;
+	padding: 15px;
+
+
+}
+
+.vignette article:nth-of-type(4)
+{
+	margin-right: 0;
+}
+
+.vignette img
+{
+	width: 100%;
+}
+
+h3
+{
+	color: #E64856;
+	font-size: 2em;
+	border-bottom: 2px solid #E64856;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+section article
+{
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+
+section:nth-of-type(2) p
+{
+	padding-right: 10px;
+}
+
+video
+{
+	width: 100%;
+	margin: 0 auto;
+}
+
+h2
+{
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 1.2em;
+	color: #FCFCFC;
+	font-weight: normal;
+	border-bottom: 1px solid #C2B9BE;
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
+
+i.fa
+{
+	font-size: 60px;
+	color: #E64856;
+	margin-right: 30px;
+	margin-top: 40px;
+
+}
+
+span
+{
+	color: #A09B9E;
+}
+
+/*footer*/
+footer
+{
+	text-align: center;	
+	color: #A09B9E;
+}
+
+footer p:first-child
+{
+	margin-top: 20px;
+}
+
+footer p
+{
+	padding-bottom: 2px;
+}
+
+footer nav a
+{
+	color: #FCFCFC;
+	padding-left: 5px;
+	
+
+}
+
+footer nav
+{
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+	text-align: center;
+}
+
+/*media querie*/
+@media screen and (max-width: 560px)
+{
+	body
+	{
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e64856+46,482637+46 */
+background: #e64856; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #e64856 46%, #482637 46%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #e64856 46%,#482637 46%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #e64856 46%,#482637 46%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e64856', endColorstr='#482637',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	}
+	.vignette article , section article , i
+	{
+		display: block;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 5%;
+		
+	}
+
+	nav ul li a
+	{
+		color: #482637;
+	}
+	
+	i.fa , p
+	{
+		text-align: center;
+	}
+
+	header
+	{
+		width: 90%;
+		margin: 0 auto;
+		background-color: #FCFCFC;
+		margin-top: 5%;
+	}
+
+	nav ul li:first-child
+	{
+		float: left;
+		padding-top: 25px;
+		padding-bottom: 10px;
+	}
+
+	nav ul li 
+	{
+		display: block;
+	}
+
+
+	ol.flex-control-nav.flex-control-paging
+	{
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	header
+	{
+	box-shadow: none;
+	}
+
+}

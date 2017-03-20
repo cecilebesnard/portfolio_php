@@ -1,5 +1,6 @@
 <?php
 
+
 // Inclusion des librairies
 	include 'application/bdd_connection.php';
 
@@ -18,18 +19,7 @@ $sql = '
 	$projets = $query->fetchAll();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 	$template ='index';
 
 include 'layout.phtml';
+

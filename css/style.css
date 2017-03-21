@@ -115,8 +115,10 @@ h4
     
 }
 
-.monimage a:hover img, .monimage a:focus img {
-    opacity: 0.5; /* opacite au survol */
+.monimage a:hover img, .monimage a:focus img 
+{
+    opacity: 0.5;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 .projet p
@@ -462,6 +464,11 @@ button:focus
     #mainTitle
     {
         font-size: 5rem;
+    }
+    
+    .projet
+    {
+        width: 90%;
     }
     
     footer ul

@@ -14,33 +14,33 @@ slides =
 
 	{
 		image : 'images/receptionniste.jpg',
-		texte : '1er EMPLOI dans l\'hotellerie : RECEPTIONNISTE',
+		texte : '1er EMPLOI dans l\'hôtellerie : RECEPTIONNISTE',
 		date : '2004'
 	},
 
 		
 	{
 		image : 'images/manager.jpg',
-		texte : 'On continue dans l\'hotellerie mais je prends du galon : Chef de réception',
+		texte : 'On continue dans l\'hôtellerie mais je prends du galon : Chef de réception',
 		date : '2005'
 	},
 
 
 	{
 		image : 'images/PC.jpg',
-		texte : 'L\'heure du changement : me voilà démarrant un nouveau metier, presque par hasard : TECHNICIEN SUPPORT pour les metiers de l\'hotellerie et de la restauration.</p><p>Mais quésako ?</p><p>je suis là pour aider les utilisateurs de nos logiciels, servant exclusivement en restauraton, vous savez les petits ecrans pleins de couleurs qu\'utilisent les serveurs quand vous allez au restaurant. Ou encore pour les hotelliers.</p><p>En quelque sorte un technicien support est un sauveur !! oui oui un sauveur, surtout en plein services avec tous les clients autour du pauvre serveur qui n\'arrive pas à saisir sa note !',
+		texte : 'L\'heure du changement : me voilà démarrant un nouveau métier, presque par hasard : TECHNICIEN SUPPORT pour les métiers de l\'hôtellerie et de la restauration.</p><p>Mais quésako ?</p><p>je suis là pour aider les utilisateurs de nos logiciels, servant exclusivement en restauration, vous savez les petits écrans pleins de couleurs qu\'utilisent les serveurs quand vous allez au restaurant. Ou encore pour les hôtelliers.</p><p>En quelque sorte un technicien support est un sauveur !! oui oui un sauveur, surtout en plein services avec tous les clients autour du pauvre serveur qui n\'arrive pas à saisir sa note !',
 		date : '2006'
 	},
 
 	{
 		image : 'images/site-internet.jpg',
-		texte : 'Et là, PAF c\'est le drame ! Non pas completement, je m\'explique:</p><p>Licenciement économique....horreur, malheurs !!</p><p>Et bien NON ! Il s\'agit plutot d\'une renaissance professionelle, je vais me rapprocher un peu plus de ce que j\'aime. Non pas que je n\'appreciais pas mon précèdent metier mais à partir de maintenant on va CREER !!!</p><p>Me voilà donc partie avec mes petits cahiers et mes crayons de couleurs : FORMATION DEVELOPPEUR ET INTEGRATEUR WEB !',
+		texte : 'Et là, PAF c\'est le drame ! Non pas complétement, je m\'explique:</p><p>Licenciement économique....horreur, malheurs !!</p><p>Et bien NON ! Il s\'agit plutôt d\'une renaissance professionelle, je vais me rapprocher un peu plus de ce que j\'aime. Non pas que je n\'appreciais pas mon précèdent métier mais à partir de maintenant on va CREER !!!</p><p>Me voilà donc partie avec mes petits cahiers et mes crayons de couleurs : FORMATION DEVELOPPEUR ET INTEGRATEUR WEB !',
 		date : '2016'
 	},
 
 	{
 		image : 'images/logo_formation.jpg',
-		texte : 'Et histoire de se perfectionner, on continue avec la formation sur le framework PHP : SYMFONY.</p><p>Et pour donner bonne "image" (jeu de mots, merci merci), je fignole avec une formation PHOTOSHOP',
+		texte : 'Histoire de se perfectionner, on continue avec la formation sur le framework PHP : SYMFONY.</p><p>Et pour donner bonne "image" (jeu de mots, merci merci), je fignole avec une formation PHOTOSHOP',
 		date : '2017'
 	}
 

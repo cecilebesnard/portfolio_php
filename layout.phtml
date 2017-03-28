@@ -79,11 +79,12 @@
      
      <form action="mail.php" method="POST" id="contact">
          <p>Votre Nom :</p>
-            <input type="text" name="nom">
+            <input type="text" name="nom" required>
          <p>Votre Email :</p>
-            <input type="text" name="email">
+            <input type="email" name="email" class="validate" required>
+            
             <p>Votre Message :</p>
-            <textarea name="message" rows="6" cols="25"></textarea><br />
+            <textarea name="message" rows="6" cols="25"  class="validate" required></textarea><br />
     <input type="submit" value="Send">
     </form>
   

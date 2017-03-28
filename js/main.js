@@ -53,6 +53,8 @@ $(function(){
                         scrollTop:$(the_id).offset().top
                     }, 'slow');
                 });
+                
+                
 
 		
 	  
@@ -91,7 +93,6 @@ $('#retour').click(
     }, 500);
     
 });
-
 
 
 
